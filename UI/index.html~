@@ -1,0 +1,132 @@
+<html>
+<body>
+<head>
+<h1>Rental Management System for GreenField's Rental Management Inc</h1>
+</head>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction1.php">
+	<h3>Transaction 1</h3>
+	<p>Generate a list of rental properties available for a specific branch (where the name of the branch is entered as input), along with the manager name.</p>
+  Branch:<br>
+  <input type="text" name="branchNo"><br>
+  <input type="submit" value="Generate">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction2.php">
+	<h3>Transaction 2</h3>
+	<p>Generate a list of supervisors and the properties (with addresses) they supervise.</p>
+
+  <input type="submit" value="Generate">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction3.php">
+	<h3>Transaction 3</h3>
+	<p>Generate a list of rental properties by a specific owner (where the owner name is entered as input), listed in a GreenField branch (the branch name is input).
+</p>
+
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Branch:<br>
+  <input type="text" name="branch"><br>
+  <input type="submit" value="Generate">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction4.php">
+	<h3>Transaction 4</h3>
+	<p>Show a listing of properties available, where the properties should satisfy the criteria (city, no of rooms and/or range for rent given as input).</p>
+  City:<br>
+  <input type="text" name="city"><br>
+  Number of Rooms:<br>
+  <input type="text" name="rooms"><br>
+  Range for Rent:<br>
+  <input type="text" name="range_rent"><br>
+
+  <input type="submit" value="Show">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction5.php">
+	<h3>Transaction 5</h3>
+	<p>Show the number of properties available for rent by branch.</p>
+
+  <input type="submit" value="Show">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction6.php">
+	<h3>Transaction 6</h3>
+	<p>Create a lease agreement (See section 1.1). The information to be entered into this agreement can be input via a Graphical User interface (See section 2.1) or from the command line.
+</p>
+
+  Property Number:<br>
+  <input type="text" name="propertynumber"><br>
+  First Name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Home Phone:<br>
+  <input type="text" name="homephone"><br>
+  Work Phone:<br>
+  <input type="text" name="workphone"><br>
+  Friend's First Name:<br>
+  <input type="text" name="friendfirstname"><br>
+  Friend's Last Name:<br>
+  <input type="text" name="friendlastname"><br>
+  Friend's Phone:<br>
+  <input type="text" name="friendphone"><br>
+  Start Date:<br>
+  <input type="text" name="startdate"><br>
+  End Date:<br>
+  <input type="text" name="enddate"><br>
+  Deposit Amount:<br>
+  <input type="text" name="depositamount"><br>
+  Rent Amount:<br>
+  <input type="text" name="rentamount"><br>
+  <input type="submit" value="Create">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction7.php">
+	<h3>Transaction 7</h3>
+	<p>Show a lease agreement for a renter (name is entered as input).</p>
+
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  <input type="submit" value="Show">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction8.php">
+	<h3>Transaction 8</h3>
+	<p>Show the renters who rented more than one rental property.</p>
+
+  <input type="submit" value="Show">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction9.php">
+	<h3>Transaction 9</h3>
+	<p>Show the average rent for properties in a town (name of the town is entered as input). You can take the average of all the properties that are rented out (in that town) and those available for rent in that town.</p>
+
+  Town:<br>
+  <input type="text" name="town"><br>
+  <input type="submit" value="Show">
+</form>
+<br>
+
+<form action="http://linux.students.engr.scu.edu/~pwu/php_transactions/transaction10.php">
+	<h3>Transaction 10</h3>
+	<p>Show the names and addresses of properties whose leases will expire in next two months (from the current date).</p>
+
+  <input type="submit" value="Show">
+</form>
+<br>
+</body>
+</html>

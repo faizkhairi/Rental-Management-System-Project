@@ -1,6 +1,6 @@
 <?php
 
-$conn = oci_connect('pwu','123toomany', '//dbserver.engr.scu.edu/db11g');
+$conn = oci_connect('pwu', password, '//dbserver.engr.scu.edu/db11g');
 if($conn) {
   $p = $_GET['town'];
   
